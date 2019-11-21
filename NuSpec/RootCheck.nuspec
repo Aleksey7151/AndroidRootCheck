@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Plugin.RootCheck</id>
+    <version>1.0.3</version>
+    <title>Xamarin iOS and Android Root Checker</title>
+    <authors>Alexei Safonov</authors>
+    <projectUrl>https://github.com/Aleksey7151/AndroidRootCheck</projectUrl>
+    <license type="file">LICENSE.TXT</license>
+    <summary>Package for checking if Android device was Rooted, or iOS device was Jail Broken.</summary>
+    <description>
+      In order to use it just do the following:
+      iOS:
+      JailBrakeChecker.IsJailBroken();
+      Android:
+      RootChecker.IsRooted();
+    </description>
+    <tags>ios xamarin android droid root rooted jail brake jailbrake hacker</tags>
+  </metadata>
+  <files>
+    <file src="../LICENSE.TXT" target="" />
+
+    <!--Xamarin.Android-->
+    <file src="../RootCheck/bin/Release/RootCheck.Droid.dll" target="lib/MonoAndroid10/RootCheck.Droid.dll" />
+    <file src="../RootCheck/bin/Release/RootCheck.xml" target="lib/MonoAndroid10/RootCheck.xml" />
+
+    <!--Xamarin.iOS-->
+    <file src="../RootCheck.iOS/bin/Release/RootCheck.iOS.dll" target="lib/Xamarin.iOS10/RootCheck.iOS.dll" />
+    <file src="../RootCheck.iOS/bin/Release/RootCheck.iOS.xml" target="lib/Xamarin.iOS10/RootCheck.iOS.xml" />
+  </files>
+</package>

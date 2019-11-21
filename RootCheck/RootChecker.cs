@@ -5,6 +5,9 @@ using Process = Java.Lang.Process;
 
 namespace RootCheck
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class RootChecker
     {
         private const string TestKeys = "test-keys";
@@ -23,6 +26,10 @@ namespace RootCheck
             "/su/bin/su"
         };
 
+        /// <summary>
+        /// Checks if device was rooted
+        /// </summary>
+        /// <returns>TRUE - if device was rooted, else - FALSE.</returns>
         public static bool IsRooted()
         {
             return CheckUsingTestKeys() || CheckUsingSuperUserAvailability() || CheckUsingProcessPermissions();

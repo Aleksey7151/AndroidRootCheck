@@ -5,6 +5,9 @@ using UIKit;
 
 namespace RootCheck
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class JailBrakeChecker
     {
         private static readonly string[] Paths =
@@ -17,6 +20,10 @@ namespace RootCheck
             @"/usr/bin/ssh"
         };
 
+        /// <summary>
+        /// Checks if device was jailbroken
+        /// </summary>
+        /// <returns>TRUE - if device was jailbroken, else - FALSE.</returns>
         public static bool IsJailBroken()
         {
             if (Runtime.Arch == Arch.SIMULATOR)
