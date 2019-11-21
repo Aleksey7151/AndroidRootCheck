@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCheck", "RootCheck.csproj", "{685CC032-69F3-4EAA-8031-DEA404BE1E84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{685CC032-69F3-4EAA-8031-DEA404BE1E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685CC032-69F3-4EAA-8031-DEA404BE1E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685CC032-69F3-4EAA-8031-DEA404BE1E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685CC032-69F3-4EAA-8031-DEA404BE1E84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ADFB7B7-9231-4DA2-AA78-0091BC2A6ECF}
+	EndGlobalSection
+EndGlobal
