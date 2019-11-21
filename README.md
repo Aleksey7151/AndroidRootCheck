@@ -56,7 +56,7 @@ public partial class AppDelegate
 * iOS specific code: iOS class library.
 
 ## Installation
-You need to add the **RootCheck** package to your iOS / Android projects projects
+You need to add the **Xamarin.Plugin.RootCheck** package to your iOS / Android projects projects
 
 ## Package dependencies
 No.
